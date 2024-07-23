@@ -4,6 +4,7 @@ terraform {
 
 inputs = {
   instancetype="t2.large"
+  instance_name= "Jenkins-prodgov-jen-001"
   key_name = "spaces-prod-developer-admin-key"
   region="us-gov-west-1"
   amiid="ami-04fd4a41214d8887d"
