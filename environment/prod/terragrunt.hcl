@@ -8,6 +8,7 @@ inputs = {
   key_name = "spaces-prod-developer-admin-key"
   region="us-gov-west-1"
   amiid="ami-04fd4a41214d8887d"
+  security_group_name_ec2="Spaces-Prod-jenkins-ec2-sg"
   Jenkins_server_name="spaces-prod-jenkins-server"
   vpc_id = "spaces-prod-app-1"
   alb_name = "Spaces-Jenkins-lb"
